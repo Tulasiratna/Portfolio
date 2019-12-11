@@ -31,4 +31,8 @@ $(document).ready(function () {
           }
       }
   });
+
+  $('.chart').easyPieChart({
+    //options goes here
+  });
 });
