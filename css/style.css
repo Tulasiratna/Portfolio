@@ -184,3 +184,13 @@ body {
   border-color: #e74c3c;
   color: #fff;
 }
+.filter {
+  text-align: center;
+  width: 100%;
+}
+.heading {
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
