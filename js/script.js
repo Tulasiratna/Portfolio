@@ -104,20 +104,22 @@ $(document).ready(function () {
     return false;
   });
 
-  const nav = $("#navigation");
+  const nav = $('#navigation');
   const navTop = nav.offset().top;
 
-  $(window).on("scroll", stickyNavigation);
+  $(window).on('scroll', stickyNavigation);
 
     function stickyNavigation() {
 
-      var body = $("body");
+      var body = $('body');
 
       if($(window).scrollTop() >= navTop) {
-        body.addClass("fixedNav");
+        body.css('padding-top', nav.outerHeight() + 'px');
+        body.addClass('fixedNav');
       }
       else {
-        body.removeClass("fixedNav");
+        body.css('padding-top', 0);
+        body.removeClass('fixedNav');
       }
     }
 

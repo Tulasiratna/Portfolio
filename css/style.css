@@ -298,6 +298,7 @@ body {
   margin: 0;
 }
 #navigation {
+  width: 100%;
   background-color: #e74c3c;
     padding: 20px 10px;
     z-index: 100;
