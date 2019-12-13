@@ -27,12 +27,12 @@ body {
 
 .slides-navigation a.prev {
   left: 20px;
-  background-image: url(../images/icons/white-back.png);
+  background-image: url(../images/icons/back.png);
 }
 
 .slides-navigation a.next {
   right: 20px;
-  background-image: url(../images/icons/white-next.png);
+  background-image: url(../images/icons/next.png);
 }
 
 .titleMessage {
@@ -296,5 +296,28 @@ body {
 
 .copyrightSection p {
   margin: 0;
+}
+#navigation {
+  background-color: #e74c3c;
+    padding: 20px 10px;
+    z-index: 100;
+}
+
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background: url(../images/icons/menu.png);
+  background-size: 100%;
 }
 
