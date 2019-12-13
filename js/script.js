@@ -75,7 +75,16 @@ $(document).ready(function () {
 
   });
 
-  $("[data-fancybox]").fancybox();
+  $('[data-fancybox]').fancybox();
+
+  $('.items').isotope({
+      filter: slector,
+      animationOptions: {
+        duration: 1500,
+        easing: 'linear',
+        queue: false
+      }
+  });
 
 
 
