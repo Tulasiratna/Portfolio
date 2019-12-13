@@ -78,7 +78,7 @@ $(document).ready(function () {
   $('[data-fancybox]').fancybox();
 
   $('.items').isotope({
-      filter: slector,
+      filter: '*',
       animationOptions: {
         duration: 1500,
         easing: 'linear',
