@@ -102,6 +102,23 @@ body {
   content: '%';
 }
 
+.owl-dots {
+    text-align: center;
+}
+.owl-dots .owl-dot span {
+    background: #fff;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    opacity: 0.5;
+    width: 12px;
+}
+
+.owl-dots .owl-dot.active span {
+  opacity: 1;
+}
+
 .squareItem {
   margin-top: 30px;
   position: relative;
